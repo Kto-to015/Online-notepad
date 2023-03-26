@@ -61,11 +61,11 @@ main {
 
 @media (max-width: 720px) {
   header {
-    height: 45px;
+    height: 60px;
   }
   .Cap {
     display: flex;
-    line-height: 45px;
+    line-height: 60px;
     max-width: 600px;
     width: 100%;
     justify-content: space-between;
