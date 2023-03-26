@@ -41,3 +41,7 @@ main {
 .wrapper .tasks .list .element {
   display: flex;
 }
+.wrapper .tasks .form {
+  display: flex;
+  gap: 10px;
+}
