@@ -57,3 +57,28 @@ main {
 .text {
   margin-left: 8px;
 }
+
+
+@media (max-width: 720px) {
+  header {
+    height: 45px;
+  }
+  .Cap {
+    display: flex;
+    line-height: 45px;
+    max-width: 600px;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  .zag-log {
+    font-size: 16pt;
+  }
+  main {
+    max-width: 600px;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+}
