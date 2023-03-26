@@ -36,7 +36,7 @@ main {
   gap: 40px;
 }
 .wrapper .tasks {
-  width: 250px;
+  width: 2500px;
 }
 .wrapper .tasks .list .element {
   display: flex;
@@ -44,4 +44,7 @@ main {
 .wrapper .tasks .form {
   display: flex;
   gap: 10px;
+}
+.checked {
+  text-decoration: line-through;
 }
