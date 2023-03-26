@@ -1,0 +1,65 @@
+/* Arial */
+@font-face {
+  font-family: Arial;
+  src: local(Arial), url('fonts/ArialMT.woff'), url('fonts/ArialMT.woff2');
+  font-weight: normal;
+}
+
+/* Montserrat */
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: local('Montserrat-Light'), url('fonts/Montserrat-Light.woff'), url('fonts/Montserrat-Light.woff2');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: local('Montserrat-Regular'), url('fonts/Montserrat-Regular.woff'), url('fonts/Montserrat-Regular.woff2');
+  font-weight: normal;
+}
+
+/* Montserrat-SemiBold */
+@font-face {
+  font-family: 'Montserrat-SemiBold';
+  src: local('Montserrat-SemiBold'), url('fonts/fonts/Montserrat-SemiBold.woff'), url('fonts/fonts/Montserrat-SemiBold.woff2');
+  font-weight: normal;
+}
+
+/* ComicSansMS */
+@font-face {
+  font-family: 'ComicSansMS';
+  src: local('ComicSansMS'), url('fonts/ComicSansMS.woff'), url('fonts/ComicSansMS.woff2');
+  font-weight: normal;
+}
+
+
+/* Numbers */
+
+/* Franklingothicmedicondc italic */
+@font-face {
+  font-family: 'Franklingothicmedicondc italic';
+  src: url('fonts/Numbers fonts/Franklingothicmedicondc italic.otf');
+}
+
+/* ITC Officina Sans LT Bold */
+@font-face {
+  font-family: 'ITC Officina Sans LT Bold';
+  src: url('fonts/Numbers fonts/ITC Officina Sans LT Bold.ttf');
+}
+
+/* Mosaiccaps */
+@font-face {
+  font-family: 'Mosaiccaps';
+  src: url('fonts/Numbers fonts/Mosaiccaps.ttf');
+}
+
+/* Thinxssk */
+@font-face {
+  font-family: 'Thinxssk';
+  src: url('fonts/Numbers fonts/Thinxssk.ttf');
+}
+
+/* Xeroprint Filetype */
+@font-face {
+  font-family: 'Xeroprint Filetype';
+  src: url('fonts/Numbers fonts/Xeroprint Filetype.ttf');
+}
