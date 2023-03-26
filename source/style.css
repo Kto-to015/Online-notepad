@@ -35,3 +35,9 @@ main {
   display: flex;
   gap: 40px;
 }
+.wrapper .tasks {
+  width: 250px;
+}
+.wrapper .tasks .list .element {
+  display: flex;
+}
