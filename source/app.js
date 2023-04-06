@@ -6,12 +6,12 @@ if(localStorage.getItem('tasks')) {
   tasks = JSON.parse(localStorage.getItem('tasks'));
 }
 
-let tasks = [
-    {
-      title: 'Пиши тут, что захочешь!',
-      done: false
-    }
-];
+// let tasks = [
+//    {
+//      title: 'Пиши тут, что захочешь!',
+//      done: false
+//    }
+//];
 
 
 render();
