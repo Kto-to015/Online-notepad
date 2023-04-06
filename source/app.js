@@ -11,14 +11,6 @@ let tasks = [
       title: 'Пиши тут, что захочешь!',
       done: false
     }
-//    {
-//      title: 'Задача 2',
-//      done: false
-//    },
-//    {
-//      title: 'Задача 3',
-//      done: false
-//    }
 ];
 
 
