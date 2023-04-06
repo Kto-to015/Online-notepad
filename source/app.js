@@ -10,7 +10,7 @@ if(localStorage.getItem('tasks')) {
     {
       title: 'Пиши, что вздумается!',
       done: false
-    },
+    }
 //    {
 //      title: 'Задача 2',
 //      done: false
