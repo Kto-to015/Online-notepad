@@ -1,11 +1,6 @@
 const list = document.querySelector('.list');
 
-let tasks = [
-    {
-      title: 'Пиши тут, что захочешь!',
-      done: false
-    }
-];
+let tasks = [];
 
 if(localStorage.getItem('tasks')) {
   tasks = JSON.parse(localStorage.getItem('tasks'));
