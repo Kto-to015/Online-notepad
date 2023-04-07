@@ -21,7 +21,7 @@ header {
 }
 .menu {
   font-family: ITC Officina Sans LT Bold;
-  letter-spacing: 5px;
+  /*letter-spacing: 5px;*/
 }
 main {
   max-width: 1200px;
