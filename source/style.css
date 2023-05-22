@@ -23,6 +23,23 @@ header {
   font-family: ITC Officina Sans LT Bold;
   /*letter-spacing: 5px;*/
 }
+.menu-button {
+  text-decoration: none;
+  color:black;
+  transition: 200ms;
+}
+.menu-button:hover {
+  color:rgb(255, 255, 255);
+  font-weight: bold;
+}
+.distance {
+  margin-right: 16px;
+}
+.interesing {
+  font-size: 9pt;
+  font-style: italic;
+  color: red;
+}
 main {
   max-width: 1200px;
   width: 100%;
