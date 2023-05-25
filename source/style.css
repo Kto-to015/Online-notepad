@@ -35,11 +35,6 @@ header {
 .distance {
   margin-right: 16px;
 }
-.interesing {
-  font-size: 9pt;
-  font-style: italic;
-  color: red;
-}
 main {
   max-width: 1200px;
   width: 100%;
