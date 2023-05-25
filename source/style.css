@@ -21,7 +21,19 @@ header {
 }
 .menu {
   font-family: ITC Officina Sans LT Bold;
-  letter-spacing: 5px;
+  /* letter-spacing: 5px; */
+}
+.menu-button {
+  text-decoration: none;
+  color:black;
+  transition: 200ms;
+}
+.menu-button:hover {
+  color:rgb(255, 255, 255);
+  font-weight: bold;
+}
+.distance {
+  margin-right: 16px;
 }
 main {
   max-width: 1200px;
@@ -30,6 +42,7 @@ main {
   margin: 0 auto;
   margin-top: 20px;
 }
+
 
 .wrapper {
   display: flex;
@@ -57,7 +70,33 @@ main {
 .text {
   margin-left: 8px;
 }
-
+button {
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.11);
+  background: rgba(0, 0, 0, 0.041);
+  height: 30px;
+  transition: 130ms;
+  position: relative;
+  top: -4px;
+}
+button:hover {
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 0, 0, 0.301);
+  background: rgba(255, 0, 0, 0.24);
+  height: 30px;
+  transform: scale(1.1);
+}
+.search{
+  width: 650px;
+  height: 20px;
+  border-radius: 10px;
+  border: 1px solid #00000036;
+  text-align-last: center;
+}
 
 @media (max-width: 1200px) {
   header {
@@ -173,6 +212,9 @@ main {
     margin: 0 auto;
     margin-top: 20px;
   }
+  .search {
+    width: 100%;
+  }
 }
 @media (max-width: 600px) {
   header {
@@ -195,6 +237,9 @@ main {
     justify-content: space-between;
     margin: 0 auto;
     margin-top: 20px;
+  }
+  .search {
+    width: 100%;
   }
 }
 @media (max-width: 480px) {
@@ -221,5 +266,8 @@ main {
     justify-content: space-between;
     margin: 0 auto;
     margin-top: 20px;
+  }
+  .search {
+    width: 100%;
   }
 }

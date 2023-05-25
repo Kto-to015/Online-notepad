@@ -10,14 +10,15 @@
   <body>
     <header>
       <div class="Cap">
-        <h1 class="zag-log">Ссылочки на дрйвера</h1>
+        <h1 class="zag-log">Онлайн блокнот</h1>
         <div class="menu">
-          <a href="#" target="_blank">1</a>
-          <a href="#" target="_blank">2</a>
-          <a href="#" target="_blank">3</a>
-          <a href="#" target="_blank">4</a>
-          <a href="#" target="_blank">5</a>
-          <a href="#" target="_blank">6</a>
+          <a href="#" onclick="message()" class="menu-button distance">Главная</a>
+          <script>
+            function message() {
+              alert("Главная страница находиться в разработке");
+            }
+            alert("Обнова вышла! Пусть и небольшая) (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧")
+          </script>
         </div>
       </div>
     </header>
@@ -26,7 +27,7 @@
         <div class="tasks">
           <h3 id="count"></h3>
           <div class="form">
-            <input id="item_add" type="text">
+            <input class="search" id="item_add" type="text">
             <button onclick="add()">Добавить</button>
           </div>
           <div class="list">
