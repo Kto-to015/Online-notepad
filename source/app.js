@@ -8,18 +8,10 @@ if(localStorage.getItem('tasks')) {
 
 // let tasks = [
 //    {
-//      title: 'Задача 1',
-//      done: false
-//    },
-//    {
-//      title: 'Задача 2',
-//      done: false
-//    },
-//    {
-//      title: 'Задача 3',
+//      title: 'Пиши тут, что захочешь!',
 //      done: false
 //    }
-// ];
+//];
 
 
 render();

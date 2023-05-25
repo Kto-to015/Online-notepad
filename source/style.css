@@ -35,6 +35,11 @@ header {
 .distance {
   margin-right: 16px;
 }
+.interesing {
+  font-size: 9pt;
+  font-style: italic;
+  color: red;
+}
 main {
   max-width: 1200px;
   width: 100%;
@@ -97,7 +102,6 @@ button:hover {
   border: 1px solid #00000036;
   text-align-last: center;
 }
-
 @media (max-width: 1200px) {
   header {
     height: 60px;
